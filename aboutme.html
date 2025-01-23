@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+
+    <link rel="stylesheet" href="../portfolio/css/style.css">
+    <link rel="stylesheet" href="../portfolio/css/responsive.css">
+
+    <!--Box Icon Link-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--Remix icon link-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    
+    <header>
+        <a href="index.html" class="logo">Aftab khan</a>
+        <ul class="navlist">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutme.html">About Me !</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="nav-right">
+            <a href="#" class="nav-btn">Hire Me!</a>
+            <div class="bx-menu bx" id="menu-icon"></div>
+        </div>
+    </header>
+
+    
+    <section>
+        <div class="aboutme">
+            <div class="about">
+                <div class="ab-left">
+                    <img src="../portfolio/my-profile-pic-2.jpeg" alt="Aftab Khan">
+                </div>
+                <div class="ab-right">
+                    <h1>Hello, I Am Aftab Khan</h1>
+                    <br>
+                    
+                    <p>I am Professional Web Designer. I have a Good knowladge of HTML5, CSS3, Bootstrap4, and I have basic knowladge of javascript and PHP7.</p>
+                    <p>Seeking a challenging career where I will utilize my inherent capabilities, enhance my skills and strength in conjunction with organization goals or objectives. Thus, to prove myself as asset to the organization with innovativeness by taking risks in a venture.</p>
+
+                    <table class="pt-details">
+                        <tr>
+                            <td>Name</td>
+                            <td>: Aftab Khan</td>
+                        </tr>
+                        <tr>
+                            <td>Age</td>
+                            <td>: 32</td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td>: 415-1/5 Govind Puri Kalkaji New Delhi 110019</td>
+                        </tr>
+                        <tr>
+                            <td>Phone Number</td>
+                            <td><a href="https://wa.me/+918700538055">: +91 8700538055</a></td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td><a href="mailto:loveaftabkhan@gmail.com">: loveaftabkhan@gmail.com</a></td>
+                        </tr>
+                    </table>
+
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="scroll">
+        <a href="#"><i class="ri-scroll-to-bottom-fill"></i>Scroll Bottom</a>
+    </div> -->
+
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+    <script type="text/javascript">
+      
+        let menu = document.querySelector('#menu-icon');
+        let navlist = document.querySelector('.navlist');
+
+        menu.onclick =()=>{
+            menu.classList.toggle('bx-x');
+            navlist.classList.toggle('open')
+        }
+
+    </script>
+
+
+</body>
+</html>

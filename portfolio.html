@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+
+    <link rel="stylesheet" href="../portfolio/css/style.css">
+    <link rel="stylesheet" href="../portfolio/css/responsive.css">
+
+    <!--Box Icon Link-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--Remix icon link-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    
+    <header>
+        <a href="index.html" class="logo">Aftab Khan</a>
+        <ul class="navlist">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutme.html">About Me !</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="nav-right">
+            <a href="#" class="nav-btn">Hire Me!</a>
+            <div class="bx-menu bx" id="menu-icon"></div>
+        </div>
+    </header>
+
+    <section class="service-section">
+      
+        <div class="service">
+            <h1>MY <span>Portfolio</span></h1>
+            <br>
+            <hr>
+        </div>
+        <div class="ser-box">
+        <div class="s-box">
+            <div class="sb-webdevlop">
+                <img src="../portfolio/image/githubicon.png" alt="">
+                <h2>Web Development</h2>
+                <p>Front-end Development</p>
+            </div>
+        </div>
+        <div class="s-box">
+            <div class="sb-webdevlop">
+                <img src="../portfolio/image/webdesign-icon.jpg" alt="Web Design">
+                <h2>Web Design</h2>
+                <p>Creating the visual elements and layout of a website, while coding involves translating these designs into a functional website using programming languages like HTML, CSS, and JavaScript</p>
+            </div>
+        </div>
+        <div class="s-box">
+            <div class="sb-webdevlop">
+                <img src="../portfolio/image/photoshop-icon.png" alt="Photoshop">
+                <h2>Photoshop</h2>
+                <p>Photoshop (PS6) (Creating Banner, Photo Resizing, Banner for E-Commerce website)</p>
+            </div>
+        </div>
+        <div class="s-box">
+            <div class="sb-webdevlop">
+                <img src="../portfolio/image/googleads-icon.jpg" alt="Google Ads">
+                <h2>Google Ads</h2>
+                <p>Create Google ads Campaigns for client and Executing tests, collecting and analyzing data.</p>
+                <p>Identifying trends and insights in order to achieve maximum ROI in paid search campaigns.</p>
+            </div>
+        </div>
+        <div class="s-box">
+            <div class="sb-webdevlop">
+                <img src="../portfolio/image/dataanalysis-icon.png" alt="Data Analysis">
+                <h2>Data Analysis on Excel</h2>
+                <p>Tracking, reporting and analyzing website analytics, pay-per-click (PPC) initiatives and campaigns.</p>
+                <p>Prepare All Campaigns Excel Report regularly and Analysis them for Better ROI</p>
+            </div>
+        </div>
+        <div class="s-box">
+            <div class="sb-webdevlop">
+                <img src="../portfolio/image/misreport-icon.png" alt="Mis">
+                <h2>MIS Report</h2>
+                <p>Prepare Excel Report and Charts regularly and Present to the Seniors and suggest for the better ROI Campaigns.</p>
+                <p>Analysis the Report and Suggest new Campaigns</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="ser-box">
+       
+    </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+    <script type="text/javascript">
+   
+        let menu = document.querySelector('#menu-icon');
+        let navlist = document.querySelector('.navlist');
+
+        menu.onclick =()=>{
+            menu.classList.toggle('bx-x');
+            navlist.classList.toggle('open')
+        }
+
+    </script>
+
+
+</body>
+</html>
